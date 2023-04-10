@@ -4,7 +4,8 @@ import bannerimg from '../../assets/Images/banner.png';
 
 const DreamJobs = () => {
     return (
-        <div className='dremJob-container py-6  flex flex-col md:flex-row gap-4 '>
+       <div className='dream-job-section'>
+             <div className='dremJob-container py-6  flex flex-col md:flex-row gap-4 '>
             <div className='text-center md:text-start '>
                 <h2 className='text-5xl font-bold leading-relaxed'>
                 One Step <br /> Closer To Your <br /><span className="bg-gradient-to-r text-transparent bg-clip-text from-blue-500  to-purple-500">Dream Job</span>
@@ -22,6 +23,7 @@ const DreamJobs = () => {
             </div>
             
         </div>
+       </div>
     );
 };
 

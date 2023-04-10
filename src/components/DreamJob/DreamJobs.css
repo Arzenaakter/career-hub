@@ -1,5 +1,12 @@
 .dremJob-container{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
+   
+}
+.dream-job-section{
+    
+        width: 100%;
+        margin: 0 auto;
+         background-color:  #F4F4F4;
+    
 }
