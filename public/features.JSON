@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "img": "../src/assets/Images/google.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Acme Corp",
+      "jobPerformence": "Remote",
+      "jobType" : "Full Time",
+      "locationIcon": "../src/assets/Icons/location.png",
+      "dollarIcon": "../src/assets/Icons/dollar.png",
+      "location": "San Francisco, CA",
+      "salary": "$120,000 - $150,000",
+      "jobDescription": "We are looking for a software engineer to join our team and help build amazing products.",
+      "jobResponsibility": "Design and develop software applications, write clean and maintainable code, work collaboratively with cross-functional teams.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "5+ years of experience in software engineering",
+      "contactInfo": {
+        "phone": "123-456-7890",
+        "email": "example@example.com"
+      }
+    },
+    {
+      "id": 2,
+      "img": "../src/assets/Images/netflix.png",
+      "jobTitle": "Product Manager",
+      "companyName": "XYZ Inc",
+      "jobPerformence": "Ontime",
+      "locationIcon":"../src/assets/Icons/dollar.png",
+      "dollarIcon": "../src/assets/Icons/dollar.png",
+      "jobType" : "Full Time",
+      "location": "New York, NY",
+      "salary": "$130,000 - $160,000",
+      "jobDescription": "We are looking for a product manager to help drive the development of our products and improve the user experience.",
+      "jobResponsibility": "Define product vision and strategy, work with cross-functional teams to develop and launch products, analyze market and user data to make informed decisions.",
+      "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+      "experiences": "7+ years of experience in product management",
+      "contactInfo": {
+        "phone": "555-123-4567",
+        "email": "example2@example.com"
+      }
+    },
+    {
+      "id": 3,
+      "img": "../src/assets/Images/tesla.png",
+      "jobTitle": "Graphic Designer",
+      "companyName": "Design Co",
+      "jobPerformence": "Ontime",
+      "locationIcon": "../src/assets/Icons/location.png",
+      "dollarIcon": "../src/assets/Icons/dollar.png",
+      "jobType" : "Full Time",
+      "location": "Los Angeles, CA",
+      "salary": "$60,000 - $80,000",
+      "jobDescription": "We are looking for a graphic designer to create beautiful and engaging designs for our clients.",
+      "jobResponsibility": "Create visual concepts and designs, work collaboratively with clients and cross-functional teams, stay up-to-date with industry trends and tools.",
+      "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
+      "experiences": "3+ years of experience in graphic design",
+      "contactInfo": {
+        "phone": "123-456-7890",
+        "email": "example3@example.com"
+      }
+    },
+    {
+      "id": 4,
+      "img": "../src/assets/Images/google.png",
+      "jobTitle": "Sales Manager",
+      "companyName": "Sales Inc",
+      "jobType" : "Full Time",
+      "jobPerformence": "Remote",
+      "locationIcon": "../src/assets/Icons/location.png",
+      "dollarIcon": "../src/assets/Icons/dollar.png",
+      "location": "Chicago, IL",
+      "salary": "$100,000 - $120,000",
+      "jobDescription": "We are looking for a sales manager to lead our sales team and drive revenue growth.",
+      "jobResponsibility": "Develop and execute sales strategies, manage and mentor sales team, build and maintain strong relationships with customers.",
+      "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+      "experiences": "5+ years of experience in sales management",
+      "contactInfo": {
+        "phone": "555-123-4567",
+        "email": "example4@example.com"
+      }
+    },
+    {
+      "id": 5,
+      "img": "../src/assets/Images/google.png",
+      "jobTitle": "Content Writer",
+      "companyName": "Content Co",
+      "jobType" : "Full Time",
+      "jobPerformence": "Remote",
+      "locationIcon": "../src/assets/Icons/location.png",
+      "dollarIcon": "../src/assets/Icons/dollar.png",
+      "location": "Seattle, WA",
+      "salary": "$50,000 - $70,000",
+      "jobDescription": "We are looking for a sales manager to lead our sales team and drive revenue growth.",
+      "jobResponsibility": "Develop and execute sales strategies, manage and mentor sales team, build and maintain strong relationships with customers.",
+      "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+      "experiences": "5+ years of experience in sales management",
+      "contactInfo": {
+        "phone": "555-123-4567",
+        "email": "example5@example.com"
+      }
+    },
+    {
+      "id": 6,
+      "img": "../src/assets/Images/Group.png",
+      "jobTitle": "Content Writer",
+      "companyName": "Content Co",
+      "location": "Seattle, WA",
+      "jobType" : "Full Time",
+      "jobPerformence": "Remote",
+      "locationIcon": "../src/assets/Icons/location.png",
+      "dollarIcon": "../src/assets/Icons/dollar.png",
+      "salary": "$50,000 - $70,000",
+      "jobDescription": "We are looking for a sales manager to lead our sales team and drive revenue growth.",
+      "jobResponsibility": "Develop and execute sales strategies, manage and mentor sales team, build and maintain strong relationships with customers.",
+      "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+      "experiences": "5+ years of experience in sales management",
+      "contactInfo": {
+        "phone": "555-123-4567",
+        "email": "example6@example.com"
+      }
+    }
+    ]
+  
