@@ -1,11 +1,12 @@
 import React from "react";
 import "./Feature.css";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Feature = ({ feature }) => {
   const {
     id, img, jobTitle,   companyName,  location,  salary, jobPerformence,  jobType,  } = feature;
-    
+
   return (
     <div className=" border rounded p-6">
       <img src={img} alt="" />
@@ -35,7 +36,7 @@ const Feature = ({ feature }) => {
         </p>
       </div>
 
-      <button className="nav-btn">View Details</button>
+      <button className="nav-btn" > <Link to= {`/jobDetails/${id}`}> View Details</Link></button>
     </div>
   );
 };
