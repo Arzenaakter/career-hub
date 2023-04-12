@@ -52,8 +52,8 @@ const Footer = () => {
           <hr  className='w-[80%] mx-auto '/>
          
           <div className='w-[80%] mx-auto flex text-[#757575] justify-between mt-6 pb-10'>
-            <p>@2023 CareerHub. All Rights Reserved</p>
-            <p>Powered by CareerHub</p>
+            <p>@2023 TechHub. All Rights Reserved</p>
+            <p>Powered by TechHub</p>
           </div>
             
         </div>

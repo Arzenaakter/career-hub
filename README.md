@@ -8,3 +8,6 @@
 • Applied job page for list of the applied job details
 • statistics page have my assignment mark rechart with tooltip
 • blog page have some rand questions with answer.
+
+
+live link: https://preeminent-cascaron-976b5d.netlify.app/
