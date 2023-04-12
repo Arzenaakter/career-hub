@@ -13,11 +13,15 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import JobDetails from './components/JobDetails/JobDetails';
 import { JobCartData } from './loaders/GetJob';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+
 
 const router = createBrowserRouter([
   {
+    
     path: '/',
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -46,9 +50,11 @@ const router = createBrowserRouter([
         element: <Blog></Blog>
     
       },
-    
+      
      ]
+     
   },
+ 
   
 ])
 

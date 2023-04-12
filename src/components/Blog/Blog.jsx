@@ -21,7 +21,7 @@ const Blog = () => {
                 The useRef hook returns a JavaScript object with a single property current, which can be used to read or modify the current value of the reference. The current property is initialized to the value passed to the useRef hook.</p>
             </div>
             
-            <div className='border rounded-md  p-10 bg-[#cfcaca]'>
+            <div className='border rounded-md  p-10 bg-[#cfcaca] mb-10'>
                 <h2 className='text-xl font-semibold'> What is useMemo?</h2>
                 <p className='text-justify'>In React, useMemo is a hook that allows you to memoize expensive computations so that they are only recalculated when their dependencies change. You can use the useMemo hook to optimize the performance of your application by avoiding unnecessary re-renders caused by expensive computations.
 
