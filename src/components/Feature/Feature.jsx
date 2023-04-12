@@ -4,8 +4,7 @@ import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
 const Feature = ({ feature }) => {
-  const {
-    id, img, jobTitle,   companyName,  location,  salary, jobPerformence,  jobType,  } = feature;
+  const { id, img, jobTitle,   companyName,  location,  salary, jobPerformence,  jobType,  } = feature;
 
   return (
     <div className=" border rounded p-6">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CurrencyDollarIcon,BriefcaseIcon,PhoneIcon,EnvelopeIcon,MapPinIcon } from '@heroicons/react/24/solid'
 
 
-import {  useLoaderData, useParams } from 'react-router-dom';
+import {  Link, useLoaderData, useParams } from 'react-router-dom';
 import './JobDetails.css'
 import { addToDb } from '../../Utilities/FakeDB';
 
@@ -28,7 +28,8 @@ const JobDetails = () => {
 
 // apply now
 const handleApplyNow = ()=>{
-    console.log('object');
+    alert('apply')
+    // console.log('object');
     addToDb(id)
     
 }
@@ -63,7 +64,7 @@ const handleApplyNow = ()=>{
 
                    </div>
                    <button className='nav-btn mt-10 w-full ' onClick={handleApplyNow}>
-                    Apply Now
+                   Apply Now
                 </button>
 
                 </div>

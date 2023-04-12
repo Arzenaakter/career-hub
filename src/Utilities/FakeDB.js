@@ -17,5 +17,13 @@ const addToDb = id => {
     localStorage.setItem('Jobs-Cart',JSON.stringify(jobsCart))
 
 }
+const getStoredJob =()=>{
+    let JobsCart ={};
+    const StoredJob = localStorage.getItem('Jobs-Cart')
+    if(StoredJob){
+        JobsCart = JSON.parse(StoredJob);
+    }
+    return JobsCart
+}
 
-export {addToDb}
+export {addToDb,getStoredJob}
