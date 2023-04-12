@@ -28,7 +28,7 @@ const JobDetails = () => {
 
 // apply now
 const handleApplyNow = ()=>{
-    alert('apply')
+
     // console.log('object');
     addToDb(id)
     
