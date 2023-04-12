@@ -15,6 +15,7 @@ import JobDetails from './components/JobDetails/JobDetails';
 import { JobCartData } from './loaders/GetJob';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import  { Toaster } from 'react-hot-toast';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -51,6 +52,11 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>
+    
+      },
+      {
+        path: '/',
+        element: <Footer></Footer>
     
       },
       
