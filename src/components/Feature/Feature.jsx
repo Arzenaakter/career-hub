@@ -8,7 +8,7 @@ const Feature = ({ feature }) => {
 
   return (
     <div className=" border rounded p-6">
-      <img src={img} alt="" />
+      <img src={img} alt="" className="w-48 h-20"/>
       <h2 className="text-xl font-semibold my-4">{jobTitle}</h2>
       <p className="my-4 text-[#757575]">{companyName}</p>
       <div className="flex gap-6">
